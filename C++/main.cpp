@@ -8,6 +8,6 @@ int main(){
     freopen("output.txt", "w", stdout);
 #endif
 
-    cout<<"hlohh";
+    cout<<"gg";
     return 0;
 }
