@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 void printName(string name){
-    cout << "hey" << name;
+    cout << "hey " << " " <<name;
 }
 int main (){
     string name;
