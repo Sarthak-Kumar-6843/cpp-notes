@@ -1,19 +1,12 @@
 #include <stdio.h>
 int main(){
-    int a ;
-    printf("enter a : ");
-    scanf("%d",&a);
-
-    int b;
-    printf("enter b : ");
-    scanf("%d",&b);
-
-    printf("%d \n", a+=b);
-    printf("%d \n", a-=b);
-    printf("%d \n", a/=b);
-    printf("%d \n", a*=b);
-    printf("%d \n", a%=b);
+    int a = 10;
+    a += 10;
+    printf("a+10 : %d \n",a);
+    a -=10;
+    printf("a - 10 : %d \n",a);
     return 0;
+  
 }
     
     
